@@ -46,7 +46,7 @@ def SupplyChainImpact(country_industry, spending):
     # Save as CSV
     output.to_csv(path + '/Outputs/' + country_industry + '_spend_impact.csv')
 
-    print("Calculations complete for" + country_industry)
+    print("Calculations complete for " + country_industry)
 
 
 
